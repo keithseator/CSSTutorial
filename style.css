@@ -1,16 +1,31 @@
-h3{
-    color: #555555;
-    font-family: Arial, Helvetica, sans-serif;
+#main-header {
+    background: #ac41a7;
+    padding: 0;
 }
 
-body{
-    background-color:#f4f4f4;
-    color: #555555;
+header li {
+    display: inline;
+}
 
+h3 {
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center
+}
+
+body {
+    background-color: #0054f4;
+    color: #555555;
+    /* margin: 0% */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: normal;
     /* Same as above
     font: normal 16px Arial, Helvetica, sans-serif;
     */
+}
+
+div p {
+    color: brown;
+    margin-left: 1em;
 }
