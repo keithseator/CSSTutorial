@@ -17,7 +17,10 @@ body {
     overflow: hidden;
 }
 
-#main-header {
+.header {
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     background: #77474765;
     padding: 0;
     border: 0;
@@ -26,7 +29,7 @@ body {
     /* position: absolute; */
 }
 
-#navbar li{
+.navbar li{
     display: inline;
 }
 
@@ -38,9 +41,7 @@ header li {
 }
 
 h3 {
-    color: #555555;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center
+
 }
 
 a{
